@@ -1,0 +1,61 @@
+/* --cadet-gray: #8C959Dff;
+--air-force-blue: #6C909Cff;
+--steel-blue: #547793ff;
+--berkeley-blue: #083068ff;
+--air-force-blue-2: #5E8196ff; */
+
+/* --cadet-gray: #78919Dff;
+--ucla-blue: #436F90ff;
+--cadet-gray-2: #96A2A2ff;
+--dun: #CFB9A9ff;
+--desert-sand: #E0C3ACff; */
+
+body {
+  font-family: "Contrail One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("./assets/vecteezy_blue-mountain-landscape-background/blue_mountain_landscape_background_generated.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  line-height: 1;
+}
+
+div {
+  margin-top: 400px;
+  margin-left: 10%;
+  padding-top: 20px;
+}
+
+button {
+  margin-top: 50px;
+  border-radius: 20px;
+  font-size: 30px;
+  background-color: #436f90ff;
+  border-color: #436f90ff;
+  border-width: 0px;
+  color: #e0c3acff;
+  margin-left: 8%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  color: #436f90ff;
+  background-color: #e0c3acff;
+  border-color: #e0c3acff;
+}
+
+h1 {
+  margin-left: 55px;
+  font-size: 100px;
+  color: #e0c3acff;
+}
+
+h2 {
+  margin-left: 10%;
+  font-size: 30px;
+}
+
+span {
+  color: #436f90ff;
+}
