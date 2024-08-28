@@ -1,14 +1,8 @@
-/* --cadet-gray: #8C959Dff;
---air-force-blue: #6C909Cff;
---steel-blue: #547793ff;
---berkeley-blue: #083068ff;
---air-force-blue-2: #5E8196ff; */
-
-/* --cadet-gray: #78919Dff;
---ucla-blue: #436F90ff;
---cadet-gray-2: #96A2A2ff;
---dun: #CFB9A9ff;
---desert-sand: #E0C3ACff; */
+/* CSS Variables for Colors */
+:root {
+  --primary-color: #436f90ff;
+  --secondary-color: #e0c3acff;
+}
 
 body {
   font-family: "Contrail One", sans-serif;
@@ -22,7 +16,7 @@ body {
 }
 
 div {
-  margin-top: 400px;
+  margin-top: 350px;
   margin-left: 10%;
   padding-top: 20px;
 }
@@ -31,24 +25,24 @@ button {
   margin-top: 50px;
   border-radius: 20px;
   font-size: 30px;
-  background-color: #436f90ff;
-  border-color: #436f90ff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
   border-width: 0px;
-  color: #e0c3acff;
+  color: whitesmoke;
   margin-left: 8%;
   cursor: pointer;
   transition: 0.3s;
 }
 button:hover {
-  color: #436f90ff;
-  background-color: #e0c3acff;
-  border-color: #e0c3acff;
+  color: var(--primary-color);
+  background-color: whitesmoke;
+  border-color: whitesmoke;
 }
 
 h1 {
   margin-left: 55px;
   font-size: 100px;
-  color: #e0c3acff;
+  color: var(--secondary-color);
 }
 
 h2 {
@@ -57,5 +51,21 @@ h2 {
 }
 
 span {
-  color: #436f90ff;
+  color: var(--primary-color);
+}
+
+i {
+  padding-left: 30px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:visited {
+  color: whitesmoke;
+}
+a:hover {
+  color: var(--secondary-color);
 }
